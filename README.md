@@ -1,57 +1,21 @@
-# Assignment 1
+# Canteen Portal
+## MERN Stack
 
-# MERN Stack
-
-## Soveet Kumar Nayak 
-## 2020101086
-
-
-
-## Bonus Attempted
-
+Special features:
 * Email to the buyers on acceptance/rejection of their order.
-
 * Graphs to visualise batch-wise, age-wise distribution of completed orders.
+* Buyers can rate the fooditems after the delivery is picked up.
+* Buyers can also choose from available add ons for a particular food item.
+* More features as you explore.
 
-
-
-## Installations
-
-### Email JS
-
-* For Linux in your frontend:
+To run the code:
 ```
-npm i emailjs-com
+sudo docker-compose up -build
 ```
 
-###  Chart MUI
-
-*For Linux in your frontend:
+If MongoDB seems to be down:
 ```
-npm i @devexpress/dx-react-chart-material-ui
+sudo service mongod start
 ```
 
-### Running the code
-
-* Run Mongo daemon:
-```
-sudo mongod
-```
-Mongo will be running on port 27017.
-
-
-* Run Express Backend:
-```
-cd backend/
-npm install
-npm start
-```
-
-* Run React Frontend:
-```
-cd frontend
-npm install/
-npm start
-```
-
-Navigate to [http://localhost:3000/](http://localhost:3000/) in your browser.
+Navigate to [http://localhost:3050/](http://localhost:3050/) in your browser.
